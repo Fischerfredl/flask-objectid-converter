@@ -17,7 +17,6 @@ script:
 - codecov
 jobs:
   include:
-    matrix:
     - stage: deploy
       script: skip
       deploy:

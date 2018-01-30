@@ -24,7 +24,7 @@ app.url_map.converters['objectid'] = ObjectIDConverter
 ```
 ### Use in routes
 ```python
-@app.route('/users/<objectid:oid>'):
+@app.route('/users/<objectid:oid>')
 def get_user(oid):
     return User.objects.get(id=oid)
 ``` 

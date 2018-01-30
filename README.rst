@@ -18,7 +18,7 @@ Usage
    import Flask from objectid\_converter import ObjectIDConverter
 
 app = Flask(\ **name**) app.url\_map.converters['objectid'] =
-ObjectIDConverter ``### Use in routes``\ python @app.route('/users/'):
+ObjectIDConverter ``### Use in routes``\ python @app.route('/users/')
 def get\_user(oid): return User.objects.get(id=oid) \`\`\`
 
 Throws 404 if the requested value cant be decoded
