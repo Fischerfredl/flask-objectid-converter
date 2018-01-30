@@ -14,7 +14,7 @@ setup(
     url='https://github.com/Fischerfredl/flask-objectid-converter',
     author='Alfred Melch',
     author_email='alfred.melch@gmx.de',
-    licence='MIT',
+    license='MIT',
     classifiers=[
         'Framework :: Flask',
         'License :: OSI Approved :: MIT License',
