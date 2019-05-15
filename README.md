@@ -54,4 +54,4 @@ Make the package a proper flask extension with **init_app**, **encode**, **decod
 ## Changelog
 
 * 1.0.0: Inital version. Encodes to base64 by default.
-* 2.0.0: Provide two converter classes. A simple one and a base64 encoding one.
+* 2.0.0: Provide two converter classes. A simple one and a base64 encoding one. Drop python2 support.
