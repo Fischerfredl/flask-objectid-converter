@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='flask-objectid-converter',
-    version='1.0.0',
+    version='2.0.0',
     description='Provides url converters for flask to support pymonogs ObjectIDs',
     long_description=readme(),
     long_description_content_type="text/markdown",
