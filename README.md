@@ -17,7 +17,7 @@ Ideas for extended functionality: See ToDo.
 ### Add Converter to app:
 ```python
 from flask import Flask
-from objectid_converter import ObjectIDConverter
+from flask_objectid_converter import ObjectIDConverter
 
 app = Flask(__name__)
 app.url_map.converters['objectid'] = ObjectIDConverter
